@@ -14,15 +14,20 @@ section{
 }
 h1 {
     font-size: 50px;
+    text-transform: uppercase;
 } 
 h2 {
     font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0;
 } 
 h3 {
     font-size: 30px;
+    text-transform: uppercase;
 } 
 h4 {
     font-size: 25px;
+    text-transform: uppercase;
 } 
 p{
     text-align: justify;
@@ -50,6 +55,7 @@ p{
     text-decoration: none;
     margin-left: 10px;
     text-transform: uppercase;
+    font-size: 16px;
     font-weight: 700;
     border-radius: 4px;
     color: #fff;
@@ -85,10 +91,10 @@ p{
     margin: 10px 0px;
 }
 /* banner section end */
-.about-me-img{
+.about-me-img {
     padding: 8px;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px #fff;  
+    box-shadow: 0px 0px 40px #fff;
 }
 .about-me .width-half img{
     width: 100%;
@@ -98,7 +104,7 @@ p{
 }
 .main-btn {
     background-image: linear-gradient(244deg, #ec88d7, #7f7ffc);
-    border: 2px solid #fff;
+    border: 2px solid rgb(59, 2, 59);
     margin-left: 0;
     margin-top: 10px;
     display: inline-block;
@@ -131,4 +137,34 @@ p{
 #web-deb-experience{
     border: 7px solid;
     border-image: linear-gradient(45deg, #040404, #0a0a0a);
+}
+.contact-contact-form {
+    width: 50%;
+    padding: 50px 65px 50px 50px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 0 40px #544b4b;
+}
+.input-field input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.message-box textarea {
+    width: 100%;
+    border: 2px solid #000;
+    padding-left: 15px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.footer-area {
+    padding: 10px 0px;
+    background-color: white;
+    box-shadow: 0px -10px 40px #fff;
+}
+.footer-area p{
+    text-align: center;
 }
