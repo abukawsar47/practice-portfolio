@@ -42,7 +42,7 @@ p{
     align-items: center;
     padding: 5px 0px;
     background: #fff;
-    box-shadow: 0px 0px 20px #fff;
+    box-shadow: 0px 5px 40px #fff;
 }
 .width-half {
     width: 40%;
@@ -162,7 +162,7 @@ p{
 .footer-area {
     padding: 10px 0px;
     background-color: white;
-    box-shadow: 0px -10px 40px #fff;
+    box-shadow: 0px -5px 40px #fff;
 }
 .footer-area p{
     text-align: center;
