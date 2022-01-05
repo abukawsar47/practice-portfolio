@@ -21,6 +21,9 @@ h2 {
 h3 {
     font-size: 30px;
 } 
+h4 {
+    font-size: 25px;
+} 
 p{
     text-align: justify;
 }
@@ -112,5 +115,20 @@ p{
 }
 .portfolio-item img {
     box-shadow: 0px 0px 40px #383c3c;
-    margin-bottom: 40px;
+}
+.experience-item {
+    box-shadow: 0px 0px 40px #3c3e42;
+    border-radius: 15px 15px 0px 0;
+    width: 39%;
+    float: left;
+    margin-left: 4%;
+    padding: 0 2% 2% 2%;
+}
+#full-stack-experience {
+    border: 7px solid;
+    border-image: linear-gradient(45deg, #040404, #0a0a0a);
+}
+#web-deb-experience{
+    border: 7px solid;
+    border-image: linear-gradient(45deg, #040404, #0a0a0a);
 }
